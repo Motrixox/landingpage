@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Landing Page</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+		</style>
+	</head>
+	<body>
+		<div class="container-fluid" id="header">
+			<div class="row">
+				<div class="col-4">
+					<a href="#"><img src="img/logo.png" alt="logo" class="logoimg"></img>
+					<div class="logo">Ping Reducer</div></a>
+				</div>
+				<div class="col-6" id="menu2">
+					<div id="menu3"><a href="#section1">Start</a></div>
+					<div id="menu3"><a href="#section2">Funkcje</a></div>
+					<div id="menu3"><a href="#section3">Cennik</a></div>
+					<div id="menu3"><a href="#section4">Opinie</a></div>
+					<a href="#"><div id="zaloguj"><div>Zaloguj</div></div></a>
+					<a href="#"><div id="zarejestruj"><div>Zarejestruj</div></div></a>
+				</div>
+				<div class="col-2">
+					<div onclick="on()"><img src="img/menu.svg" alt="menu" class="menu"></img></div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="overlay"> 
+			<div class="container-fluid" id="header">
+				<div class="row">
+					<div class="col-4">
+						<a href="#"><img src="img/logo.png" alt="logo" class="logoimg"></img>
+						<div class="logo">Ping Reducer</div></a>
+					</div>
+					<div class="col-6" >
+						
+					</div>
+					<div class="col-2">
+						<div onclick="off()"><img src="img/menu.svg" alt="menu" class="menu"></img></div>
+					</div>
+				</div>
+			</div>
+			<div id="menu3"><a href="#section1">Start</a></div>
+			<div id="menu3"><a href="#section2">Funkcje</a></div>
+			<div id="menu3"><a href="#section3">Cennik</a></div>
+			<div id="menu3"><a href="#section4">Opinie</a></div>
+			<a href="#"><div id="zaloguj"><div>Zaloguj</div></div></a>
+			<a href="#"><div id="zarejestruj"><div>Zarejestruj</div></div></a>
+		</div>
+		
+		<div class="container-fluid" id="section1">
+			<div class="row">
+				<div class="col-1"></div>
+				<div class="col-10 col-xl-7 order-xl-2 text-center">
+					<img src="img/wek1.svg" alt="wektor1" class="wek1"></img>
+				</div>
+				<div class="col-1"></div>
+				<div class="col-1"></div>
+				<div class="col-10 col-xl-5 order-xl-1 ">
+					<div id="sec1">
+						<div class="h2">Ping Reducer</div>
+						<div id="text1">Nie martw się o ping.</div>
+						<div class="normalText">Dołącz do prywatnej sieci graczy i graj bez opóźnień - z Ping Reducer.</div>
+					</div>
+				</div>
+				<div class="col-1"></div>
+				<div class="col-2"></div>
+				<div class="col-8 col-xl-5 order-xl-3 ">
+					<a href="#"><div id="start"><div>Start</div></div></a>
+				</div>
+				<div class="col-2"></div>
+				<div class="col-1"></div>
+				<div class="col-10 col-xl-12 order-xl-4 ">
+					<div id="sec2">
+						<img src="img/user.svg">
+						<div id="text2">
+							<div class="smallBold">2000+</div>
+							<div class="smallText">Użytkowników</div>
+						</div>
+						
+						<div id="sep"></div>
+						
+						<img src="img/location.svg">
+						<div id="text2">
+							<div class="smallBold">30+</div>
+							<div class="smallText">Lokalizacji</div>
+						</div>
+						
+						<div id="sep"></div>
+						
+						<img src="img/Server.svg">
+						<div id="text2">
+							<div class="smallBold">50+</div>
+							<div class="smallText">Serwerów</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-1"></div>
+			</div>
+		</div>
+		
+		
+		<div class="container-fluid" id="section2">
+			<div class="row">
+				<div class="col-2"></div>
+				<div class="col-8 col-xl-7 order-xl-1 text-center">
+					<img src="img/wek2.svg" alt="wektor2" class="wek2"></img>
+				</div>
+				<div class="col-2"></div>
+				<div class="col-2"></div>
+				<div class="col-8 col-xl-5 order-xl-2 ">
+					<div class="h3">Cechy naszego produktu</div>
+				</div>
+				<div class="col-2"></div>
+				<div class="col-2 col-xl-7 order-xl-3"></div>
+				<div class="col-9 col-xl-5 order-xl-4 " id="sec3">
+					<div class="normalText"><img src="img/check.svg">Rozbudowana sieć serwerów</div>
+					<div class="normalText"><img src="img/check.svg">100% Uptime serwerów</div>
+					<div class="normalText"><img src="img/check.svg">Bez limitu czasu</div>
+					<div class="normalText"><img src="img/check.svg">Bez limitu przepustowości</div>
+					<div class="normalText"><img src="img/check.svg">Prywatna sieć graczy</div>
+				</div>
+				<div class="col-1"></div>
+			</div>
+		</div>
+		
+		
+		<div class="container-fluid hidden2" id="section3">
+			<div class="row">
+				<div class="col-2"></div>
+				<div class="col-8 text-center">
+					<div class="h2" id="sec4"> Wybierz swój plan</div>
+				</div>
+				<div class="col-2"></div>
+			</div>
+			<div class="row">
+				<div class="col-12 carousel" id="carouselExampleControls" data-bs-ride="carousel">
+					<div id="sec3x5" class="carousel-inner">
+						<div id="sec5" class="carousel-item active">
+							<div id="circles">
+								<div id="circle" style="background-color:#FF8F8F;"></div>
+								<div id="circle"></div>
+								<div id="circle"></div>
+							</div>
+							<img src="img/probny.svg">
+							<div class="h2">Plan Próbny</div>
+							<div id="sec6"> 
+								<img src="img/check2.svg">
+								<div id="cennikText">Limit przepustowości</div> </br>
+								<img src="img/check2.svg">
+								<div id="cennikText">Szyfrowane połączenie</div> </br>
+								<img src="img/check2.svg">
+								<div id="cennikText">Brak logów ruchu sieciowego</div> </br>
+								<img src="img/check2.svg">
+								<div id="cennikText">Działa na systemie Windows</div> </br>
+								<img src="img/check2.svg">
+								<div id="cennikText">1 urządzenie</div>
+							</div>
+							<div id="cena">14 dni za darmo</div>
+							<a href="#section3"><div id="wybierz"><div>Wybierz</div></div></a>
+						</div>
+						<div id="sec5" class="carousel-item">
+							<div id="circles">
+								<div id="circle" style="background-color:#DDD62A;"></div>
+								<div id="circle" style="background-color:#DDD62A;"></div>
+								<div id="circle"></div>
+							</div>
+							<img src="img/podstawowy.svg">
+							<div class="h2">Plan Podstawowy</div>
+							<div id="sec6"> 
+								<img src="img/check2.svg">
+								<div id="cennikText">Bez limitu przepustowości</div> </br>
+								<img src="img/check2.svg">
+								<div id="cennikText">Szyfrowane połączenie</div> </br>
+								<img src="img/check2.svg">
+								<div id="cennikText">Logi ruchu sieciowego</div> </br>
+								<img src="img/check2.svg">
+								<div id="cennikText">Działa na systemie Windows</div> </br>
+								<img src="img/check2.svg">
+								<div id="cennikText">Do 2 urządzeń</div>
+							</div>
+							<div id="cena">39,99 zł / msc</div>
+							<a href="#section3"><div id="wybierz"><div>Wybierz</div></div></a>
+						</div>
+						<div id="sec5" class="carousel-item">
+							<div id="circles">
+								<div id="circle" style="background-color:#2ADD32;"></div>
+								<div id="circle" style="background-color:#2ADD32;"></div>
+								<div id="circle" style="background-color:#2ADD32;"></div>
+							</div>
+							<img src="img/premium.svg">
+							<div class="h2">Plan Premium</div>
+							<div id="sec6"> 
+								<img src="img/check2.svg">
+								<div id="cennikText">Bez limitu przepustowości</div> </br>
+								<img src="img/check2.svg">
+								<div id="cennikText">Szyfrowane połączenie</div> </br>
+								<img src="img/check2.svg">
+								<div id="cennikText">Logi ruchu sieciowego</div> </br>
+								<img src="img/check2.svg">
+								<div id="cennikText">Działa na systemie Windows</div> </br>
+								<img src="img/check2.svg">
+								<div id="cennikText">Do 4 urządzeń</div> </br>
+								<img src="img/check2.svg">
+								<div id="cennikText">Udział w betatestach</div>
+							</div>
+							<div id="cena">49,99 zł / msc</div>
+							<a href="#section3"><div id="wybierz"><div>Wybierz</div></div></a>
+						</div>
+						<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev" id="but">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</a>
+						<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next" id="but">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="container-fluid hidden" id="section3">
+			<div class="row">
+				<div class="col-2"></div>
+				<div class="col-8 text-center">
+					<div class="h2" id="sec4"> Wybierz swój plan</div>
+				</div>
+				<div class="col-2"></div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<div id="sec3x5">
+						<div id="sec5">
+							<img src="img/probny.svg">
+							<div class="h2">Plan Próbny</div>
+							<div id="sec6"> 
+								<img src="img/check2.svg">
+								<div id="cennikText">Limit przepustowości</div> </br>
+								<img src="img/check2.svg">
+								<div id="cennikText">Szyfrowane połączenie</div> </br>
+								<img src="img/check2.svg">
+								<div id="cennikText">Brak logów ruchu sieciowego</div> </br>
+								<img src="img/check2.svg">
+								<div id="cennikText">Działa na systemie Windows</div> </br>
+								<img src="img/check2.svg">
+								<div id="cennikText">1 urządzenie</div>
+							</div>
+							<div id="cena">14 dni za darmo</div>
+							<a href="#section3"><div id="wybierz"><div>Wybierz</div></div></a>
+						</div>
+						<div id="sec5">
+							<img src="img/podstawowy.svg">
+							<div class="h2">Plan Podstawowy</div>
+							<div id="sec6"> 
+								<img src="img/check2.svg">
+								<div id="cennikText">Bez limitu przepustowości</div> </br>
+								<img src="img/check2.svg">
+								<div id="cennikText">Szyfrowane połączenie</div> </br>
+								<img src="img/check2.svg">
+								<div id="cennikText">Logi ruchu sieciowego</div> </br>
+								<img src="img/check2.svg">
+								<div id="cennikText">Działa na systemie Windows</div> </br>
+								<img src="img/check2.svg">
+								<div id="cennikText">Do 2 urządzeń</div>
+							</div>
+							<div id="cena">39,99 zł / msc</div>
+							<a href="#section3"><div id="wybierz"><div>Wybierz</div></div></a>
+						</div>
+						<div id="sec5">
+							<img src="img/premium.svg">
+							<div class="h2">Plan Premium</div>
+							<div id="sec6"> 
+								<img src="img/check2.svg">
+								<div id="cennikText">Bez limitu przepustowości</div> </br>
+								<img src="img/check2.svg">
+								<div id="cennikText">Szyfrowane połączenie</div> </br>
+								<img src="img/check2.svg">
+								<div id="cennikText">Logi ruchu sieciowego</div> </br>
+								<img src="img/check2.svg">
+								<div id="cennikText">Działa na systemie Windows</div> </br>
+								<img src="img/check2.svg">
+								<div id="cennikText">Do 4 urządzeń</div> </br>
+								<img src="img/check2.svg">
+								<div id="cennikText">Udział w betatestach</div>
+							</div>
+							<div id="cena">49,99 zł / msc</div>
+							<a href="#section3"><div id="wybierz"><div>Wybierz</div></div></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="container-fluid hidden" id="section4">
+			<div class="row">
+				<div class="col-1"></div>
+				<div class="col-10 text-center">
+					<div class="h2" id="sec7">Zdobyliśmy zaufanie tysięcy klientów</div>
+				</div>
+				<div class="col-1"></div>
+			</div>
+			<div class="row">
+				<div class="col-1"></div>
+				<div class="col-10 text-center">
+					<div id="sec3x8">
+						<div id="sec8">
+							<img src="img/zdj1.png">
+							<div id="imie"> Tomasz</div>
+							<div id="miasto"> Warszawa</div>
+							<div id="ocena">4,5<img src="img/star.svg"></div>
+							<div id="text3">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rhoncus accumsan congue. Ut eget tortor eu nunc vestibulum pretium.”</div>
+						</div>
+						<div id="sec8" class="hidden">
+							<img src="img/zdj2.png">
+							<div id="imie"> Robert</div>
+							<div id="miasto"> Berlin</div>
+							<div id="ocena">5<img src="img/star.svg"></div>
+							<div id="text3">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rhoncus accumsan congue. Ut eget tortor eu nunc vestibulum pretium.”</div>
+						</div>
+						<div id="sec8" class="hidden">
+							<img src="img/zdj3.png">
+							<div id="imie"> Jessica</div>
+							<div id="miasto"> Lizbona</div>
+							<div id="ocena">5<img src="img/star.svg"></div>
+							<div id="text3">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rhoncus accumsan congue. Ut eget tortor eu nunc vestibulum pretium.”</div>
+						</div>
+					</div>
+					<div id="sec3x8v2">
+						<div id="sec8" class="hidden">
+							<img src="img/zdj4.png">
+							<div id="imie"> Arkadiusz</div>
+							<div id="miasto"> Kraków</div>
+							<div id="ocena">5<img src="img/star.svg"></div>
+							<div id="text3">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rhoncus accumsan congue. Ut eget tortor eu nunc vestibulum pretium.”</div>
+						</div>
+						<div id="sec8" class="hidden">
+							<img src="img/zdj5.png">
+							<div id="imie"> Rene</div>
+							<div id="miasto"> Paryż</div>
+							<div id="ocena">4,5<img src="img/star.svg"></div>
+							<div id="text3">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rhoncus accumsan congue. Ut eget tortor eu nunc vestibulum pretium.”</div>
+						</div>
+						<div id="sec8" class="hidden">
+							<img src="img/zdj6.png">
+							<div id="imie"> Alicja</div>
+							<div id="miasto"> Moskwa</div>
+							<div id="ocena">5<img src="img/star.svg"></div>
+							<div id="text3">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rhoncus accumsan congue. Ut eget tortor eu nunc vestibulum pretium.”</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-1"></div>
+			</div>
+		</div>
+		
+		
+		<div class="container-fluid hidden2" id="section4">
+			<div class="row">
+				<div class="col-1"></div>
+				<div class="col-10 text-center">
+					<div class="h2" id="sec7">Zdobyliśmy zaufanie tysięcy klientów</div>
+				</div>
+				<div class="col-1"></div>
+			</div>
+			<div class="row">
+				<div class="col-12 text-center carousel" id="carouselExampleControls2" data-bs-ride="carousel">
+					<div id="sec3x8" class="carousel-inner">
+						<div id="sec8" class="carousel-item active">
+							<div id="circles2"><div id="circle2" style="background-color:#888888;"></div><div id="circle2"></div><div id="circle2"></div><div id="circle2"></div><div id="circle2"></div><div id="circle2"></div></div>
+							<img src="img/zdj1.png">
+							<div id="imie"> Tomasz</div>
+							<div id="miasto"> Warszawa</div>
+							<div id="ocena">4,5<img src="img/star.svg"></div>
+							<div id="text3">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rhoncus accumsan congue. Ut eget tortor eu nunc vestibulum pretium.”</div>
+						</div>
+						<div id="sec8" class="carousel-item">
+							<div id="circles2"><div id="circle2"></div><div id="circle2" style="background-color:#888888;"></div><div id="circle2"></div><div id="circle2"></div><div id="circle2"></div><div id="circle2"></div></div>
+							<img src="img/zdj2.png">
+							<div id="imie"> Robert</div>
+							<div id="miasto"> Berlin</div>
+							<div id="ocena">5<img src="img/star.svg"></div>
+							<div id="text3">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rhoncus accumsan congue. Ut eget tortor eu nunc vestibulum pretium.”</div>
+						</div>
+						<div id="sec8" class="carousel-item">
+							<div id="circles2"><div id="circle2"></div><div id="circle2"></div><div id="circle2" style="background-color:#888888;"></div><div id="circle2"></div><div id="circle2"></div><div id="circle2"></div></div>
+							<img src="img/zdj3.png">
+							<div id="imie"> Jessica</div>
+							<div id="miasto"> Lizbona</div>
+							<div id="ocena">5<img src="img/star.svg"></div>
+							<div id="text3">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rhoncus accumsan congue. Ut eget tortor eu nunc vestibulum pretium.”</div>
+						</div>
+						<div id="sec8" class="carousel-item">
+							<div id="circles2"><div id="circle2"></div><div id="circle2"></div><div id="circle2"></div><div id="circle2" style="background-color:#888888;"></div><div id="circle2"></div><div id="circle2"></div></div>
+							<img src="img/zdj4.png">
+							<div id="imie"> Arkadiusz</div>
+							<div id="miasto"> Kraków</div>
+							<div id="ocena">5<img src="img/star.svg"></div>
+							<div id="text3">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rhoncus accumsan congue. Ut eget tortor eu nunc vestibulum pretium.”</div>
+						</div>
+						<div id="sec8" class="carousel-item">
+							<div id="circles2"><div id="circle2"></div><div id="circle2"></div><div id="circle2"></div><div id="circle2"></div><div id="circle2" style="background-color:#888888;"></div><div id="circle2"></div></div>
+							<img src="img/zdj5.png">
+							<div id="imie"> Rene</div>
+							<div id="miasto"> Paryż</div>
+							<div id="ocena">4,5<img src="img/star.svg"></div>
+							<div id="text3">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rhoncus accumsan congue. Ut eget tortor eu nunc vestibulum pretium.”</div>
+						</div>
+						<div id="sec8" class="carousel-item">
+							<div id="circles2"><div id="circle2"></div><div id="circle2"></div><div id="circle2"></div><div id="circle2"></div><div id="circle2"></div><div id="circle2" style="background-color:#888888;"></div></div>
+							<img src="img/zdj6.png">
+							<div id="imie"> Alicja</div>
+							<div id="miasto"> Moskwa</div>
+							<div id="ocena">5<img src="img/star.svg"></div>
+							<div id="text3">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rhoncus accumsan congue. Ut eget tortor eu nunc vestibulum pretium.”</div>
+						</div>
+					</div>
+					<a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-bs-slide="prev" id="but2" style="position:absolute; left:-2%">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-bs-slide="next" id="but2" style="position:absolute; right:-2%">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container-fluid" id="footer">
+			<div class="row">
+				<div class="col-1 col-xl-1 order-xl-1 "></div>
+				<div class="col-10 col-xl-4 order-xl-2 " id="sec9">
+					Ping Reducer to prywatna sieć stworzona dla graczy przez graczy.
+				</div>
+				<div class="col-1 col-xl-1 order-xl-3 "></div>
+				<div class="col-12 col-xl-6 order-xl-4 " id="sec10">
+					<a href="http://www.facebook.com"><img src="img/Facebook.png"></a>
+					<a href="http://www.twitter.com"><img src="img/Twitter.png"></a>
+					<a href="http://www.instagram.com"><img src="img/Instagram.png"></a>
+					<a href="http://www.reddit.com"><img src="img/Reddit.png"></a>
+					<a href="http://www.youtube.com"><img src="img/Youtube.png"></a>
+				</div>
+				<div class="col-1 col-xl-1 order-xl-5 "></div>
+				<div class="col-10 col-xl-10 order-xl-6 " id="sec11">
+					©2020PingReducer
+				</div>
+				<div class="col-1"></div>
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+	
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+		<script>	
+			function on() {
+				document.getElementById("overlay").style.display = "block";
+			}
+
+			function off() {
+				document.getElementById("overlay").style.display = "none";
+			}
+		</script>
+	</body>
+</html>
