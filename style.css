@@ -670,8 +670,10 @@ a:active {
 }
 
 #but2 {
-	margin-top:70px;
 	height:200px;
+	float:left;
+	width:50px;
+	color:black;
 }
 
 
