@@ -2,7 +2,7 @@ body {
 	max-height:2649px;
 }
 
-#header {
+.header {
 	background-color: #D9D9D9;
 	width: 100%;
 	height: 90px;
@@ -65,19 +65,19 @@ a:active {
 	color:black;
 }
 
-#overlay > #menu3 > a:link {
+#overlay > .menu3 > a:link {
 	color:#FFFFFF;
 }
 
-#overlay > #menu3 > a:visited {
+#overlay > .menu3 > a:visited {
 	color:#FFFFFF;
 }
 
-#overlay > #menu3 > a:hover {
+#overlay > .menu3 > a:hover {
 	color:#FFFFFF;
 }
 
-#overlay > #menu3 > a:active {
+#overlay > .menu3 > a:active {
 	color:#FFFFFF;
 }
 
@@ -94,7 +94,7 @@ a:active {
 	box-sizing: border-box;	
 }
 
-#overlay > #menu3 {
+#overlay > .menu3 {
 	font-family: Rubik;
 	font-style: normal;
 	font-weight: normal;
@@ -108,7 +108,7 @@ a:active {
 	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-#overlay > a > #zaloguj, #overlay > a > #zarejestruj {
+#overlay > a > .zaloguj, #overlay > a > .zarejestruj {
 	border: 2px solid #F53855;
 	box-sizing: border-box;
 	border-radius: 50px;
@@ -124,14 +124,14 @@ a:active {
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-#overlay > a > #zaloguj {
+#overlay > a > .zaloguj {
 	border-color:#D9D9D9;
 	position: absolute;
 	right:15%;
 	top: 380px;
 }
 
-#zaloguj > div, #zarejestruj > div {
+.zaloguj > div, .zarejestruj > div {
 	position: absolute;
 	left: 32.67%;
 	right: 32.67%;
@@ -145,7 +145,7 @@ a:active {
 	color: #D9D9D9;
 }
 
-#zarejestruj > div{
+.zarejestruj > div{
 	position: absolute;
 	left: 25.33%;
 	right: 25.33%;
@@ -154,19 +154,19 @@ a:active {
 	color: #F53855;
 }
 
-#zaloguj:hover{
+.zaloguj:hover{
 	background-color:#D9D9D9;
 }
 
-#zaloguj:hover > div {
+.zaloguj:hover > div {
 	color:#000000;
 }
 
-#zarejestruj:hover > div {
+.zarejestruj:hover > div {
 	color:#FFFFFF;
 }
 
-#zarejestruj:hover {
+.zarejestruj:hover {
 	background-color:#F53855;
 }
 
@@ -317,13 +317,13 @@ a:active {
 	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-#text2 {
+.text2 {
 	float:left;
 	position:relative;
 	top:14px;
 }
 
-#sep {
+.sep {
 	border: 1px solid #EEEFF2;
 	border-radius: 25%;
 	background-color: #EEEFF2;
@@ -384,18 +384,18 @@ a:active {
 
 
 
-#section3 {
+.section3 {
 	width: 100%;
 	height: 632px;
 	left: 0px;
 	background-color: #4F5665;
 }
 
-#sec4{
+.sec4{
 	margin-top:40px;
 }
 
-#circle {
+.circle {
 	width:15px;
 	height:15px;
 	background-color:#EEEEEE;
@@ -404,7 +404,7 @@ a:active {
 	margin: 0px 10px 0px 10px;
 }
 
-#circles {
+.circles {
 	margin-top:-30px;
 	position: absolute;
     left: 50%;
@@ -412,7 +412,7 @@ a:active {
     transform: translate(-50%, -50%)
 }
 
-#sec5 {
+.sec5 {
 	width: 230px;
 	height: 430px;
 	background: #D9D9D9;
@@ -427,7 +427,7 @@ a:active {
     transform: translate(-50%, -50%)
 }
 
-#sec5 > img {
+.sec5 > img {
 	width:122px;
 	height:66px;
 	position: absolute;
@@ -437,24 +437,24 @@ a:active {
 	bottom: 77.54%;
 }
 
-#sec5 > .h2 {
+.sec5 > .h2 {
 	color:#0B132A;
 	margin-top:115px;
 	text-align:center;
 }
 
-#sec6 {
+.sec6 {
 	margin-top:20px;
 }
 
-#sec6 > img {
+.sec6 > img {
 	margin-left:37px;
 	margin-right:11px;
 	margin-bottom:7px;
 	float:left;
 }
 
-#cennikText {
+.cennikText {
 	font-family: PT Sans;
 	font-style: normal;
 	font-weight: bold;
@@ -465,7 +465,7 @@ a:active {
 	margin-bottom:10px;
 }
 
-#cena {
+.cena {
 	font-family: PT Sans;
 	font-style: normal;
 	font-weight: bold;
@@ -479,7 +479,22 @@ a:active {
 	bottom: 13.96%;
 }
 
-#wybierz {
+.cena2 {
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 26px;
+	text-align: center;
+	color: #73757A;
+	position: absolute;
+	right: 19.83%;
+	top: 74%;
+	text-decoration:line-through;
+	text-decoration-color:red;
+}
+
+.wybierz {
 	border: 2px solid #F53855;
 	box-sizing: border-box;
 	border-radius: 50px;
@@ -494,7 +509,7 @@ a:active {
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-#wybierz > div {
+.wybierz > div {
 	position: absolute;
 	left: 34.26%;
 	right: 37.51%;
@@ -508,11 +523,11 @@ a:active {
 	color: #F53855;
 }
 
-#wybierz:hover {
+.wybierz:hover {
 	background-color:#F53855;
 }
 
-#wybierz:hover > div{
+.wybierz:hover > div{
 	color:#FFFFFF;
 }
 
@@ -524,7 +539,7 @@ a:active {
 	display:block;
 }
 
-#but {
+.but {
 	margin-top:70px;
 	height:400px;
 }
@@ -539,18 +554,18 @@ a:active {
 
 
 
-#section4 {
+.section4 {
 	width: 100%;
 	height: 480px;
 	background: #ADC7FF;
 }
 
-#sec7 {
+.sec7 {
 	color: #0B132A;
 	margin-top:64px;
 }
 
-#circle2 {
+.circle2 {
 	width:15px;
 	height:15px;
 	background-color:#CCCCCC;
@@ -560,7 +575,7 @@ a:active {
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-#circles2 {
+.circles2 {
 	margin-top:-20px;
 	position: absolute;
     left: 50%;
@@ -568,7 +583,7 @@ a:active {
     transform: translate(-50%, -50%)
 }
 
-#sec8 {
+.sec8 {
 	width: 300px;
 	height: 178.76px;
 	background: #FFFFFF;
@@ -584,7 +599,7 @@ a:active {
     transform: translate(-50%, -50%)
 }
 
-#sec8 > img {
+.sec8 > img {
 	position: absolute;
 	left: 7.5%;
 	right: 80%;
@@ -594,7 +609,7 @@ a:active {
 	height:40px;
 }
 
-#imie {
+.imie {
 	position: absolute;
 	left: 25%;
 	right: 47%;
@@ -613,7 +628,7 @@ a:active {
 	color: #0B132A;
 }
 
-#miasto {
+.miasto {
 	position: absolute;
 	left: 26.5%;
 	right: 48.25%;
@@ -632,7 +647,7 @@ a:active {
 	color: #4F5665;
 }
 
-#text3 {
+.text3 {
 	position: absolute;
 	left: 7.5%;
 	right: 7.5%;
@@ -651,7 +666,7 @@ a:active {
 	color: #0B132A;
 }
 
-#ocena {
+.ocena {
 	position: absolute;
 	left: 77.97%;
 	right: 14.05%;
@@ -669,7 +684,7 @@ a:active {
 	color: #0B132A;
 }
 
-#but2 {
+.but2 {
 	height:200px;
 	float:left;
 	width:50px;
@@ -743,7 +758,7 @@ a:active {
 		max-height:4159px;
 	}
 	
-	#header {
+	.header {
 		height:181px;
 	}
 	
@@ -776,7 +791,7 @@ a:active {
 		visibility:visible;
 	}
 	
-	#menu3 {
+	.menu3 {
 		position:relative;
 		top: 72px;
 		float:left;
@@ -811,7 +826,7 @@ a:active {
 		color:black;
 	}
 	
-	#zaloguj, #zarejestruj {
+	.zaloguj, .zarejestruj {
 		border: 2px solid #F53855;
 		box-sizing: border-box;
 		border-radius: 50px;
@@ -824,14 +839,14 @@ a:active {
 		filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 	}
 	
-	#zaloguj {
+	.zaloguj {
 		border-color:#141313;
 		position: absolute;
 		right:15%;
 		top: 68px;
 	}
 
-	#zaloguj > div, #zarejestruj > div {
+	.zaloguj > div, .zarejestruj > div {
 		position: absolute;
 		left: 32.67%;
 		right: 32.67%;
@@ -845,7 +860,7 @@ a:active {
 		color: #141313;
 	}
 	
-	#zarejestruj > div{
+	.zarejestruj > div{
 		position: absolute;
 		left: 25.33%;
 		right: 25.33%;
@@ -854,15 +869,15 @@ a:active {
 		color: #F53855;
 	}
 
-	#zaloguj:hover{
+	.zaloguj:hover{
 		background-color:#141313;
 	}
 
-	#zaloguj:hover > div, #zarejestruj:hover > div{
+	.zaloguj:hover > div, .zarejestruj:hover > div{
 		color:#FFFFFF;
 	}
 
-	#zarejestruj:hover {
+	.zarejestruj:hover {
 		background-color:#F53855;
 	}
 	
@@ -1001,14 +1016,14 @@ a:active {
 		text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	}
 
-	#text2 {
+	.text2 {
 		float:left;
 		position:relative;
 		top:72px;
 		margin-left:26px;
 	}
 
-	#sep {
+	.sep {
 		border: 1px solid #EEEFF2;
 		border-radius: 25%;
 		background-color: #EEEFF2;
@@ -1077,18 +1092,18 @@ a:active {
 
 
 
-	#section3 {
+	.section3 {
 		width: 100%;
 		height: 932px;
 		left: 0px;
 		background-color: #4F5665;
 	}
 
-	#sec4{
+	.sec4{
 		margin-top:69px;
 	}
 
-	#circle {
+	.circle {
 		width:15px;
 		height:15px;
 		background-color:#EEEEEE;
@@ -1097,7 +1112,7 @@ a:active {
 		margin: 0px 10px 0px 10px;
 	}
 
-	#circles {
+	.circles {
 		visibility:hidden;
 		margin-top:32px;
 		position: absolute;
@@ -1106,7 +1121,7 @@ a:active {
 		transform: translate(-50%, -50%)
 	}
 
-	#sec3x5 {
+	.sec3x5 {
 		position: absolute;
 		top:2537px;
 		left: 50%;
@@ -1115,11 +1130,11 @@ a:active {
 		transform: translate(-50%, -50%)
 	}
 
-	#sec5 {
+	.sec5 {
 		width: 330px;
 		height: 650px;
 		background: #EEEEEE;
-		border: 2px solid #DDDDDD;
+		border: 5px solid #DDDDDD;
 		box-sizing: border-box;
 		border-radius: 30px;
 		margin-top:40px;
@@ -1133,7 +1148,7 @@ a:active {
 		transform: none;
 	}
 
-	#sec5 > img {
+	.sec5 > img {
 		width:176px;
 		height:100px;
 		position: absolute;
@@ -1143,7 +1158,7 @@ a:active {
 		bottom: 77.54%;
 	}
 
-	#sec5 > .h2 {
+	.sec5 > .h2 {
 		color:#0B132A;
 		margin-top:175px;
 		text-align:center;
@@ -1155,12 +1170,12 @@ a:active {
 		text-align: center;
 	}
 
-	#sec6 {
+	.sec6 {
 		width:100%;
 		margin-top:30px;
 	}
 
-	#sec6 > img {
+	.sec6 > img {
 		width:24px;
 		height:24px;
 		margin-left:50px;
@@ -1169,7 +1184,7 @@ a:active {
 		float:left;
 	}
 
-	#cennikText {
+	.cennikText {
 		font-family: PT Sans;
 		font-style: normal;
 		font-weight: bold;
@@ -1180,7 +1195,7 @@ a:active {
 		margin-bottom:-2px;
 	}
 
-	#cena {
+	.cena {
 		font-family: PT Sans;
 		font-style: normal;
 		font-weight: bold;
@@ -1194,7 +1209,22 @@ a:active {
 		bottom: 13.96%;
 	}
 
-	#wybierz {
+	.cena2 {
+		font-family: PT Sans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 28px;
+		line-height: 36px;
+		text-align: center;
+		color: #73757A;
+		position: absolute;
+		right:22%;
+		top: 74%;
+		text-decoration:line-through;
+		text-decoration-color:red;
+	}
+
+	.wybierz {
 		border: 2px solid #F53855;
 		box-sizing: border-box;
 		border-radius: 50px;
@@ -1209,7 +1239,7 @@ a:active {
 		filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 	}
 
-	#wybierz > div {
+	.wybierz > div {
 		position: absolute;
 		left: 34.26%;
 		right: 34.26%;
@@ -1223,11 +1253,11 @@ a:active {
 		color: #F53855;
 	}
 
-	#wybierz:hover {
+	.wybierz:hover {
 		background-color:#F53855;
 	}
 
-	#wybierz:hover > div{
+	.wybierz:hover > div{
 		color:#FFFFFF;
 	}
 
@@ -1239,6 +1269,14 @@ a:active {
 		display:none;
 	}
 	
+	#promocja {
+		position: absolute;
+		width: 228px;
+		height: 60px;
+		left: 162px;
+		top: -45px;
+		z-index:1;
+	}
 	
 	
 	
@@ -1247,13 +1285,13 @@ a:active {
 
 
 
-	#section4 {
+	.section4 {
 		width: 100%;
 		height: 932px;
 		background: #ADC7FF;
 	}
 
-	#sec7 {
+	.sec7 {
 		color: #0B132A;
 		margin-top:171px;
 		margin-left:-33px;
@@ -1269,7 +1307,7 @@ a:active {
 		text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	}
 
-	#circle2 {
+	.circle2 {
 		width:15px;
 		height:15px;
 		background-color:#CCCCCC;
@@ -1279,7 +1317,7 @@ a:active {
 		filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 	}
 
-	#circles2 {
+	.circles2 {
 		margin-top:56px;
 		position: absolute;
 		left: 50%;
@@ -1288,7 +1326,7 @@ a:active {
 		visibility:hidden;
 	}
 	
-	#sec3x5 {
+	.sec3x5 {
 		position: absolute;
 		top:2537px;
 		left: 50%;
@@ -1297,7 +1335,7 @@ a:active {
 		transform: translate(-50%, -50%)
 	}
 
-	#sec3x8 {
+	.sec3x8 {
 		position: absolute;
 		top:3365px;
 		left: 50%;
@@ -1315,7 +1353,7 @@ a:active {
 		transform: translate(-50%, -50%)
 	}
 
-	#sec8 {
+	.sec8 {
 		width: 389px;
 		height: 232px;
 		background: #FFFFFF;
@@ -1333,7 +1371,7 @@ a:active {
 		transform: none;
 	}
 
-	#sec8 > img {
+	.sec8 > img {
 		position: absolute;
 		left: 7.5%;
 		right: 80%;
@@ -1343,7 +1381,7 @@ a:active {
 		height:51px;
 	}
 
-	#imie {
+	.imie {
 		position: absolute;
 		left: 30%;
 		right: 47%;
@@ -1362,7 +1400,7 @@ a:active {
 		color: #0B132A;
 	}
 
-	#miasto {
+	.miasto {
 		position: absolute;
 		left: 32%;
 		right: 48.25%;
@@ -1381,7 +1419,7 @@ a:active {
 		color: #4F5665;
 	}
 
-	#text3 {
+	.text3 {
 		position: absolute;
 		left: 7.5%;
 		right: 7.5%;
@@ -1401,7 +1439,7 @@ a:active {
 		color: #0B132A;
 	}
 
-	#ocena {
+	.ocena {
 		position: absolute;
 		left: 77.97%;
 		right: 14.05%;
@@ -1491,19 +1529,19 @@ a:active {
 
 
 @media screen and (max-width:1290px) and (min-width:1200px) {
-	#sec3x5 {
+	.sec3x5 {
 		margin-left:-42px;
 	}
 	
-	#sec5 {
-		margin-left:80px;
+	.sec5 {
+		margin-left:70px;
 	}
 	
-	#sec3x8, #sec3x8v2 {
+	.sec3x8, #sec3x8v2 {
 		margin-left:-5px;
 	}
 	
-	#sec8 {
+	.sec8 {
 		margin-left:10px;
 	}
 }
